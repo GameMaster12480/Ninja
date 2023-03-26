@@ -1,0 +1,18 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Bloxfruit Hub", "Midnight")
+
+--MAIN
+local Main = Window:NewTab("Main")
+local MainSection = Main:NewSection("Scripts")
+
+MainSection:NewButton("Hoho hub, Key Needed", "Click on the name to execute", function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+end)
+
+MainSection:NewButton("Blck Hub, No Key", "Click on the name to execute", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/main/BLCK"))()
+end)
+
+MainSection:NewButton("Auto Chest Hop", "Click on the name to execute", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/NickelHUBB/SonicTuru/main/ChestFarmOp"))()
+end)
